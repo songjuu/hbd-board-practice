@@ -39,6 +39,16 @@
       "email": "asdf",
       "password": "123",
       "id": 8
+    },
+    {
+      "email": "abc@nbc.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "email": "111@nbc.com",
+      "password": "1234",
+      "id": 10
     }
   ],
   "boards": [
@@ -95,6 +105,18 @@
       "contents": "asdfasdf",
       "isDeleted": false,
       "id": 9
+    },
+    {
+      "email": "abc@nbc.com",
+      "contents": "테스트입니다!",
+      "isDeleted": false,
+      "id": 10
+    },
+    {
+      "email": "111@nbc.com",
+      "contents": "삭제 버튼이 잘 보이나요??",
+      "isDeleted": false,
+      "id": 11
     }
   ]
 }
