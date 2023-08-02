@@ -2,7 +2,6 @@
 
 
 ## ⛏ 과제 요구 사항
-------------
 + AuthLayout.tsx 완성
     + localStorage의 토큰 검색
     + localStorage의 이메일 검색
