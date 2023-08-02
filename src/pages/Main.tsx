@@ -40,7 +40,6 @@ const Main: React.FC<any> = () => {
         contents,
         isDeleted: false,
       });
-      setContents("");
       // TODO: 성공한 경우, "작성이 완료되었습니다. 아직 자동 새로고침이 불가하여 수동으로 갱신합니다." alert
       alert(
         "작성이 완료되었습니다. 아직 자동 새로고침이 불가하여 수동으로 갱신합니다."

@@ -5,7 +5,7 @@ import axios from "axios";
 
 const SignupForm: React.FC<any> = ({ setIsLogin }) => {
   const handleSignup = async (values: any) => {
-    const { email, password, confirmPassword, agreed } = values;
+    const { email, password } = values;
 
     try {
       // TODO: 데이터베이스에서 email과 password 기반으로 찾아서 이미 존재하는지 확인 후, 존재하는 경우 "이미 존재하는 아이디입니다." alert
